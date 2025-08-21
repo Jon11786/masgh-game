@@ -17,7 +17,7 @@
 
           <div>
             <Field v-for="(opt, j) in cat.options" :key="j" :label="`Option ${j+1}`">
-              <input v-model="cat.options[j]" placeholder="Add option" />
+              <input v-model="cat.options[j].text" placeholder="Add option" />
             </Field>
           </div>
         </div>

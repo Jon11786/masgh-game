@@ -2,7 +2,7 @@
   <section>
     <Card>
       <h2>Enter your categories & options</h2>
-      <p class="help">At least 3 categories</p>
+      <p class="help">Inclued at least 3 categories</p>
 
       <div>
         <div v-for="(cat, idx) in store.categories" :key="cat.id" class="cat">
